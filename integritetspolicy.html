@@ -34,7 +34,7 @@
 <div class="wrap">
 
   <h1>Integritetspolicy för Jobbly</h1>
-  <p class="updated">Senast uppdaterad: 28 juni 2026</p>
+  <p class="updated">Senast uppdaterad: 3 augusti 2026</p>
 
   <p class="lead">Den här policyn beskriver hur Jobbly behandlar personuppgifter när du använder appen, söker jobb, hanterar ansökningar eller kontaktar oss.</p>
 
@@ -53,7 +53,7 @@
   <h2>3. Personuppgifter som behandlas</h2>
   <ul>
     <li><strong>Konto och autentisering:</strong> användar-ID, namn, e-postadress, autentiseringsleverantör, session och inloggningsmetadata. Du kan välja Apple, Google eller e-postinloggning.</li>
-    <li><strong>Kontakt och profil:</strong> för- och efternamn, telefonnummer, e-post, kön, gatuadress, postnummer, ort, födelsedatum, medborgarskap, arbetstillstånd och personnummer när en viss ansökan kräver det.</li>
+    <li><strong>Kontakt och profil:</strong> för- och efternamn, telefonnummer, e-post, kön, gatuadress, postnummer, ort, födelsedatum, medborgarskap, arbetstillstånd och personnummer.</li>
     <li><strong>Meriter och önskemål:</strong> utbildning, arbetslivserfarenhet, yrkesroller, önskade arbetsorter, sökradie, erfarenhetsnivå, löneförväntan och urvalssvar.</li>
     <li><strong>Plats:</strong> valda orter och, om du tillåter platsåtkomst, enhetens position för att söka jobb i närheten. Du kan använda manuell plats i stället.</li>
     <li><strong>Dokument:</strong> CV och personliga brev som du laddar upp eller skapar i appen, samt text som hämtas ur dokument när det behövs för ansökan.</li>
@@ -88,7 +88,7 @@
         <tr>
           <td>AI och ansökningsautomatisering</td>
           <td>Profil, meriter, svar, extraherad brevtext och formulärinnehåll för att tolka formulär, välja svar och fylla i ansökan.</td>
-          <td>Avtal, artikel 6.1 b. Separat uttryckligt tillstånd krävs enligt Apples plattformsregler innan uppgifter delas med tredjeparts-AI.</td>
+          <td>Avtal, artikel 6.1 b.</td>
           <td>Render, Supabase och Google Gemini.</td>
           <td>Jobblys ansökningspost sparas tills kontot raderas. En skärmbild för en pausad fråga tas bort när frågan besvaras eller ansökan avslutas och frågeläget löper ut efter 24 timmar. Google kan behålla begränsade säkerhetsloggar enligt sina API-villkor.</td>
         </tr>
@@ -126,11 +126,11 @@
   <p>Om Jobbly behandlar uppgifter med stöd av berättigat intresse kan du invända genom att kontakta oss. Vi bedömer då om behandlingen måste upphöra.</p>
 
   <h2>5. Personnummer</h2>
-  <p>Svenska personnummer har ett särskilt skydd. Jobbly ska därför inte kräva eller använda personnummer för allmän jobbsökning eller för att skapa en grundläggande profil. Personnummer behandlas endast när en specifik ansökan faktiskt kräver säker identifiering och behandlingen är klart motiverad av ansökans ändamål.</p>
-  <p>Innan personnumret används visar Jobbly varför det behövs. Om du inte vill lämna personnummer kan den aktuella ansökan i vissa fall inte slutföras, men du kan fortsätta använda övriga delar av Tjänsten.</p>
+  <p>Svenska personnummer har ett särskilt skydd. Jobbly behandlar ditt personnummer som en del av profilen för att kunna fylla i jobbansökningar där arbetsgivaren begär det. Personnumret kan ingå i underlaget som behandlas under ansökningsautomatiseringen och lämnas till arbetsgivaren eller rekryteringssystemet när ansökningsformuläret efterfrågar det.</p>
+  <p>Du kan söka efter, visa och spara jobb utan att ange personnummer. För att skicka ansökningar genom Jobbly behöver profilen vara komplett, vilket för närvarande omfattar personnummer.</p>
 
-  <h2>6. AI-behandling och ditt tillstånd</h2>
-  <p>Jobbly använder Google Gemini för att tolka ansökningsformulär, välja nästa åtgärd, hjälpa till att formulera eller utveckla svar och fylla i ansökningar. Innan den första överföringen visar Jobbly information om mottagaren, ändamålet och vilka uppgifter som kan delas och ber dig att aktivt godkänna överföringen.</p>
+  <h2>6. AI-behandling</h2>
+  <p>Jobbly använder Google Gemini för att tolka ansökningsformulär, välja nästa åtgärd, hjälpa till att formulera eller utveckla svar och fylla i ansökningar. När du väljer att starta en ansökan genom Jobbly skickas de uppgifter som behövs för den aktuella ansökan till Gemini.</p>
   <p>Följande kan skickas till Gemini när det behövs för den aktuella ansökan:</p>
   <ul>
     <li>profil- och kontaktuppgifter, meriter, utbildning och urvalssvar,</li>
@@ -141,7 +141,6 @@
   </ul>
   <p>Den granskade produktionskonfigurationen skickar inte ansökningsskärmbilder eller den råa CV-filen till Gemini. Dokumenten kan däremot skickas till arbetsgivaren eller rekryteringssystemet när ansökan lämnas in.</p>
   <p>För den API-tjänst som Jobbly använder anger Google att prompts och svar inte används för att förbättra Googles produkter. Google kan behandla begränsade loggar för säkerhet, missbruksbekämpning och rättsliga krav.</p>
-  <p>Du kan återkalla ditt AI-tillstånd under Profil → Inställningar → AI och datadelning. Då stoppas nya överföringar till Gemini. Funktioner som kräver AI för att tolka och fylla i ansökningar slutar fungera, men du behåller tillgång till kontoradering och dina dataskyddsrättigheter. Att återkalla AI-tillstånd är inte samma sak som att radera kontot.</p>
 
   <h2>7. Mottagare och deras roller</h2>
   <ul>
@@ -162,7 +161,7 @@
 
   <h2>9. Radering och lagring</h2>
   <p>Du kan radera kontot under Profil → Inställningar. När raderingen är klar tas kontot, profiluppgifter, Jobblys databasposter, CV, personliga brev, ansökningskopior, meddelanden och lokala appdata bort från aktiva system. Begränsade kopior kan finnas kvar i tidsbegränsade säkerhetskopior tills den tillämpliga backupcykeln har löpt ut.</p>
-  <p>Du kan också ta bort ett dokument utan att radera hela kontot. Återkallat AI-tillstånd stoppar framtida AI-överföringar men raderar inte automatiskt kontot eller tidigare uppgifter.</p>
+  <p>Du kan också ta bort ett dokument utan att radera hela kontot.</p>
   <p>En ansökan som redan har skickats kan inte tas tillbaka från arbetsgivarens eller rekryterarens system genom att Jobbly-kontot raderas. Kontakta den mottagande organisationen om du vill utöva rättigheter för deras kopia.</p>
   <p>Personuppgiftsbiträden kan behålla begränsade kopior under sina dokumenterade säkerhets-, backup- eller avvecklingsperioder efter Jobblys raderingsbegäran. Resend anger normalt 30 dagars lagring av e-postdata. Uppgifter som måste bevaras för ett pågående rättsligt anspråk eller en rättslig skyldighet sparas endast så länge det ändamålet kräver.</p>
 
@@ -175,7 +174,7 @@
     <li>begära att behandlingen begränsas,</li>
     <li>invända mot behandling som grundas på berättigat intresse,</li>
     <li>få ut uppgifter som omfattas av dataportabilitet, och</li>
-    <li>återkalla ett samtycke eller AI-tillstånd utan att det påverkar tidigare laglig behandling.</li>
+    <li>återkalla ett samtycke utan att det påverkar tidigare laglig behandling.</li>
   </ul>
   <p>Rätta profiluppgifter direkt i appen, radera kontot under Profil → Inställningar eller kontakta <a href="mailto:support@jobbly.se">support@jobbly.se</a> för övriga begäranden. Vi kan behöva kontrollera din identitet innan vi lämnar ut eller ändrar uppgifter.</p>
   <p>Du har också rätt att lämna klagomål till <a href="https://www.imy.se/">Integritetsskyddsmyndigheten, IMY</a>.</p>
